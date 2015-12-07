@@ -1,0 +1,1 @@
+c:\users\vadim\documents\visual studio 2015\Projects\BankApplication\BankApplication\bin\Debug\BankApplication.exe.config

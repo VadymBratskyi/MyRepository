@@ -1,0 +1,69 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace BankLibrary
+{
+    public abstract class Account : IAccount
+    {
+        //Событие, возникающее при выводе денег
+        protected internal virtual event AccountStateHandler Withdrow;
+        // Событие возникающее при добавлении на счет
+        protected internal virtual event AccountStateHandler Added;
+        // Событие возникающее при открытии счета
+        protected internal virtual event AccountStateHandler Opened;
+        // Событие возникающее при закрытии счета
+        protected internal virtual event AccountStateHandler Closed;
+        // Событие возникающее при начислении процентов
+        protected internal virtual event AccountStateHandler Calculated;
+
+        protected int _id ;// уникальный id счета
+        
+        private static int _counter = 0; // статический счетчик
+        
+        protected decimal _sum;// Переменная для хранения суммы
+        
+        protected int _percentage; // Переменная для хранения процента 
+        
+        protected int _days = 0; // время с момента открытия счета
+
+
+        public Account(decimal sum, int percent)
+        {
+            _sum = sum;
+            _percentage = percent;
+            _id = ++_counter;// увеличиваем счетчик и присваиваем его значение id
+        }
+
+        // Текущая сумма на счету
+        public decimal CurrentSum {
+            get { return _sum; }
+        }
+        //  процент счета
+        public int Percentage {
+            get { return _percentage; }
+        }
+
+         //id
+        public int Id {
+            get { return _id; }
+        }
+        // метод, вызываемый после открытия света
+        protected internal abstract void OnOpened();
+        // метод добавления средств на счет
+        public void Put(decimal sum)
+        {
+            _sum += sum;
+            if (Added!=null)// вызываем событие добавления денег на счет
+            {
+                Added(this, new AccountEventArgs("На счет поступило " + sum, sum));
+            }
+        }
+        // метод изъятия денег со счета
+        public decimal Withdraw(decimal sum)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
