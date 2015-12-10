@@ -1,2 +1,8 @@
 c:\users\vadim\documents\visual studio 2015\Projects\BankApplication\BankApplication\bin\Debug\BankApplication.exe.config
-C:\Users\Vadim\Documents\Visual Studio 2015\MyRepository\BankApplication\BankApplication\bin\Debug\BankApplication.exe.config
+c:\users\vadim\documents\visual studio 2015\Projects\BankApplication\BankApplication\bin\Debug\BankApplication.exe
+c:\users\vadim\documents\visual studio 2015\Projects\BankApplication\BankApplication\bin\Debug\BankApplication.pdb
+c:\users\vadim\documents\visual studio 2015\Projects\BankApplication\BankApplication\bin\Debug\BankLibrary.dll
+c:\users\vadim\documents\visual studio 2015\Projects\BankApplication\BankApplication\bin\Debug\BankLibrary.pdb
+c:\users\vadim\documents\visual studio 2015\Projects\BankApplication\BankApplication\obj\Debug\BankApplication.csprojResolveAssemblyReference.cache
+c:\users\vadim\documents\visual studio 2015\Projects\BankApplication\BankApplication\obj\Debug\BankApplication.exe
+c:\users\vadim\documents\visual studio 2015\Projects\BankApplication\BankApplication\obj\Debug\BankApplication.pdb

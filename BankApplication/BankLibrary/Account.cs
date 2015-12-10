@@ -49,10 +49,10 @@ namespace BankLibrary
         public int Id {
             get { return _id; }
         }
-        // метод, вызываемый после открытия света
+        // метод, вызываемый после открытия счета
         protected internal abstract void OnOpened();
         // метод добавления средств на счет
-        public void Put(decimal sum)
+        public virtual void Put(decimal sum)
         {
             _sum += sum;
             if (Added!=null)// вызываем событие добавления денег на счет
@@ -61,9 +61,49 @@ namespace BankLibrary
             }
         }
         // метод изъятия денег со счета
-        public decimal Withdraw(decimal sum)
+        public virtual decimal Withdraw(decimal sum)
         {
-            throw new NotImplementedException();
+            decimal result = 0;
+            if (sum <= _sum)
+            {
+                _sum -= sum;
+                result = sum;
+                if (Withdrow != null)
+                {
+                    Withdrow(this, new AccountEventArgs("Сумма " + sum + " снята со счета " + _id, sum));
+                }
+            }
+            else
+            {
+                if (Withdrow != null)
+                {
+                    Withdrow(this,new AccountEventArgs("Недостаточно денег на счете " + _id, sum));
+                }
+            }
+            return result;
+        }
+
+
+        protected internal virtual void  Close()
+        {
+            if (Closed != null)
+            {
+                Closed(this, new AccountEventArgs("Счет " + _id + " закрыт.  Итоговая сумма: " + CurrentSum, CurrentSum));
+            }
+        }
+
+        // увеличиваем кол-во дней
+        protected internal void IncrementDays()
+        {
+            _days++;
+        }
+        // метод подсчета процентов
+        protected internal virtual void Calculate()
+        {
+            decimal increment = _sum * _percentage / 100;
+            _sum = _sum + increment;
+            if (Calculated != null)
+                Calculated(this, new AccountEventArgs("Начислены проценты в размере: " + increment, increment));
         }
     }
 }
