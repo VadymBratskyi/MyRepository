@@ -1,0 +1,6 @@
+c:\users\vadim\documents\visual studio 2015\Projects\FoldersAndFiles\FoldersAndFiles\bin\Debug\FoldersAndFiles.exe.config
+c:\users\vadim\documents\visual studio 2015\Projects\FoldersAndFiles\FoldersAndFiles\bin\Debug\FoldersAndFiles.exe
+c:\users\vadim\documents\visual studio 2015\Projects\FoldersAndFiles\FoldersAndFiles\bin\Debug\FoldersAndFiles.pdb
+c:\users\vadim\documents\visual studio 2015\Projects\FoldersAndFiles\FoldersAndFiles\obj\Debug\FoldersAndFiles.csprojResolveAssemblyReference.cache
+c:\users\vadim\documents\visual studio 2015\Projects\FoldersAndFiles\FoldersAndFiles\obj\Debug\FoldersAndFiles.exe
+c:\users\vadim\documents\visual studio 2015\Projects\FoldersAndFiles\FoldersAndFiles\obj\Debug\FoldersAndFiles.pdb
