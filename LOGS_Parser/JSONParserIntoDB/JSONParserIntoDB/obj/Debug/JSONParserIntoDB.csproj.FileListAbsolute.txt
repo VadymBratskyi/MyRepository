@@ -1,0 +1,25 @@
+c:\users\vadimb.bms-consulting\documents\visual studio 2015\Projects\JSONParserIntoDB\JSONParserIntoDB\bin\Debug\JSONParserIntoDB.exe.config
+c:\users\vadimb.bms-consulting\documents\visual studio 2015\Projects\JSONParserIntoDB\JSONParserIntoDB\bin\Debug\JSONParserIntoDB.exe
+c:\users\vadimb.bms-consulting\documents\visual studio 2015\Projects\JSONParserIntoDB\JSONParserIntoDB\bin\Debug\JSONParserIntoDB.pdb
+c:\users\vadimb.bms-consulting\documents\visual studio 2015\Projects\JSONParserIntoDB\JSONParserIntoDB\bin\Debug\Newtonsoft.Json.dll
+c:\users\vadimb.bms-consulting\documents\visual studio 2015\Projects\JSONParserIntoDB\JSONParserIntoDB\bin\Debug\Newtonsoft.Json.xml
+c:\users\vadimb.bms-consulting\documents\visual studio 2015\Projects\JSONParserIntoDB\JSONParserIntoDB\obj\Debug\JSONParserIntoDB.Form1.resources
+c:\users\vadimb.bms-consulting\documents\visual studio 2015\Projects\JSONParserIntoDB\JSONParserIntoDB\obj\Debug\JSONParserIntoDB.Properties.Resources.resources
+c:\users\vadimb.bms-consulting\documents\visual studio 2015\Projects\JSONParserIntoDB\JSONParserIntoDB\obj\Debug\JSONParserIntoDB.csproj.GenerateResource.Cache
+c:\users\vadimb.bms-consulting\documents\visual studio 2015\Projects\JSONParserIntoDB\JSONParserIntoDB\obj\Debug\JSONParserIntoDB.exe
+c:\users\vadimb.bms-consulting\documents\visual studio 2015\Projects\JSONParserIntoDB\JSONParserIntoDB\obj\Debug\JSONParserIntoDB.pdb
+c:\users\vadimb.bms-consulting\documents\visual studio 2015\Projects\JSONParserIntoDB\JSONParserIntoDB\obj\Debug\JSONParserIntoDB.csprojResolveAssemblyReference.cache
+c:\users\vadimb.bms-consulting\documents\visual studio 2015\Projects\JSONParserIntoDB\JSONParserIntoDB\bin\Debug\Microsoft.Data.ConnectionUI.Dialog.dll
+c:\users\vadimb.bms-consulting\documents\visual studio 2015\Projects\JSONParserIntoDB\JSONParserIntoDB\bin\Debug\Microsoft.Data.ConnectionUI.dll
+E:\_ProjectsEA\OSHB-Doc_Flow-EA\Users\vadim\LOGS_Parser\JSONParserIntoDB\JSONParserIntoDB\bin\Debug\JSONParserIntoDB.exe.config
+E:\_ProjectsEA\OSHB-Doc_Flow-EA\Users\vadim\LOGS_Parser\JSONParserIntoDB\JSONParserIntoDB\obj\Debug\JSONParserIntoDB.exe
+E:\_ProjectsEA\OSHB-Doc_Flow-EA\Users\vadim\LOGS_Parser\JSONParserIntoDB\JSONParserIntoDB\obj\Debug\JSONParserIntoDB.pdb
+E:\_ProjectsEA\OSHB-Doc_Flow-EA\Users\vadim\LOGS_Parser\JSONParserIntoDB\JSONParserIntoDB\bin\Debug\JSONParserIntoDB.exe
+E:\_ProjectsEA\OSHB-Doc_Flow-EA\Users\vadim\LOGS_Parser\JSONParserIntoDB\JSONParserIntoDB\bin\Debug\JSONParserIntoDB.pdb
+E:\_ProjectsEA\OSHB-Doc_Flow-EA\Users\vadim\LOGS_Parser\JSONParserIntoDB\JSONParserIntoDB\bin\Debug\Microsoft.Data.ConnectionUI.Dialog.dll
+E:\_ProjectsEA\OSHB-Doc_Flow-EA\Users\vadim\LOGS_Parser\JSONParserIntoDB\JSONParserIntoDB\bin\Debug\Microsoft.Data.ConnectionUI.dll
+E:\_ProjectsEA\OSHB-Doc_Flow-EA\Users\vadim\LOGS_Parser\JSONParserIntoDB\JSONParserIntoDB\bin\Debug\Newtonsoft.Json.xml
+E:\_ProjectsEA\OSHB-Doc_Flow-EA\Users\vadim\LOGS_Parser\JSONParserIntoDB\JSONParserIntoDB\obj\Debug\JSONParserIntoDB.csprojResolveAssemblyReference.cache
+E:\_ProjectsEA\OSHB-Doc_Flow-EA\Users\vadim\LOGS_Parser\JSONParserIntoDB\JSONParserIntoDB\obj\Debug\JSONParserIntoDB.Form1.resources
+E:\_ProjectsEA\OSHB-Doc_Flow-EA\Users\vadim\LOGS_Parser\JSONParserIntoDB\JSONParserIntoDB\obj\Debug\JSONParserIntoDB.Properties.Resources.resources
+E:\_ProjectsEA\OSHB-Doc_Flow-EA\Users\vadim\LOGS_Parser\JSONParserIntoDB\JSONParserIntoDB\obj\Debug\JSONParserIntoDB.csproj.GenerateResource.Cache
